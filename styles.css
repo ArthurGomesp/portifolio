@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: linear-gradient(135deg, #111a42, #420083);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #f4f4f9;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 5%;
+}
+.section {
+    margin-top: 2em;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    border-bottom: 2px solid #002fff;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+.portfolio-item, .experience-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.portfolio-item img, .experience-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.social-links a {
+    color: #fff;
+
+}
+
+.link-projetos {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #fff;
+}
+.link-projetos:hover {
+    background-color: #50005e;
+
+}
+
+.linkedIn:hover{
+    background-color: #002fff;
+}
+.github:hover{
+    background-color: #8800a0;
+}
+.email:hover{
+    background-color: #ff0000;
+}
+
+footer {
+    text-align: center;
+    padding: 0.1rem 0;
+    background-color: #000000;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
